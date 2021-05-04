@@ -9,6 +9,8 @@ echo "PATH=\"$HOME/bin:$HOME/.local/bin:/usr/bin:$PATH\" >> ~/.profile
 source ~/.profile
 npm i -g @antora/cli@2.0 @antora/site-generator-default@2.0
 
+antora --fetch playbook-project/antora-playbook.yml
+
 
 
 
